@@ -6,7 +6,7 @@ import './styles.css'
 const Introduction = () => (
     <section>
         <heading size="normal">
-            Olá, sou o Otávio<br />
+            Olá, sou o Otávio Canedo<br />
             Estou fazendo o curso de Ciência da Computação na PUC Minas.
         </heading>
         <div className="introduction__description">

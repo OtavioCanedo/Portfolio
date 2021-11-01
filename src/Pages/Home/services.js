@@ -4,22 +4,22 @@ const services = [
     {
         image: Layout,
         title: 'Responsive Layouts',
-        description: "Descricao do serviço"
+        description: "Descrição do serviço"
     },
     {
         image: Layout,
         title: 'Responsive Layouts',
-        description: "Descricao do serviço"
+        description: "Descrição do serviço"
     },
     {
         image: Layout,
         title: 'Responsive Layouts',
-        description: "Descricao do serviço"
+        description: "Descrição do serviço"
     },
     {
         image: Layout,
         title: 'Responsive Layouts',
-        description: "Descricao do serviço"
+        description: "Descrição do serviço"
     }
 ]
 

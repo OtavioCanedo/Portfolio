@@ -1,27 +1,27 @@
 const projects = [
     {
         title: 'New project',
-        description: "Teste projetos"
+        description: "Descrição do projeto"
     },
     {
         title: 'New project',
-        description: "Teste projetos"
+        description: "Descrição do projeto"
     },
     {
         title: 'New project',
-        description: "Teste projetos"
+        description: "Descrição do projeto"
     },
     {
         title: 'New project',
-        description: "Teste projetos"
+        description: "Descrição do projeto"
     },
     {
         title: 'New project',
-        description: "Teste projetos"
+        description: "Descrição do projeto"
     },
     {
         title: 'New project',
-        description: "Teste projetos"
+        description: "Descrição do projeto"
     }
 ]
 

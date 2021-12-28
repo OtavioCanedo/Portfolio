@@ -11,6 +11,7 @@ const Footer = () => (
             <Link link="mailto:otavionevescoc@hotmail.com" title="Email" />
             <Link link="https://github.com/OtavioCanedo" title="Github" />
             <Link link="https://www.instagram.com/otavio_canedo/" title="Instagram" />
+            <Link link="https://www.linkedin.com/in/ot%C3%A1vio-canedo-235267b3/" title="LinkedIn" />
         </div>
     </footer>
 )

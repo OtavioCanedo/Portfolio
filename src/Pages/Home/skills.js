@@ -20,7 +20,7 @@ const skills = [
     },
     {
       image: JS,
-      title: 'Javascript'
+      title: 'JavaScript'
     },
     {
       image: C,

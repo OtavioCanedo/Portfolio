@@ -3,12 +3,11 @@ import Footer from '../../components/Footer'
 import Heading from '../../components/Heading'
 import SkillCard from '../../components/SkillCard'
 import ProjectCard from '../../components/ProjectCard'
-import ServiceCard from '../../components/ServiceCard'
+import Experience from '../../components/Experience'
 import Introduction from '../../components/Introduction'
 
 import skills from './skills'
 import projects from './projects'
-import services from './services'
 
 import './styles.css'
 
@@ -26,7 +25,7 @@ const Home = () => (
 
         <section className="section light-bg">
             <Heading id="projects" lineBottom >
-                Projects
+                Projetos
             </Heading>
             <div className="container projects__container">
                 {projects.map((item, index) => (
@@ -34,36 +33,26 @@ const Home = () => (
                         key={index}
                         title={item.title}
                         description={item.description}
+                        link={item.link}
                     />    
                 ))}
             </div>
         </section>
 
         <section className="section">
-            <Heading id="services" lineBottom >
-                Services
+            <Heading id="experience" lineBottom>
+                Experiência
             </Heading>
-            <div className="container services__container">
-                {services.map((item, index) => {
-                    const Icon = item.image
-
-                    return (
-                        <ServiceCard
-                            key={index}
-                            image={<Icon size={70} color="#FF0A54" />}
-                            title={item.title}
-                            description={item.description}
-                        />    
-                    )
-                })}
+            <div className="container experience__container">
+                <Experience />
             </div>
         </section>
 
         <section className="section light-bg">
-            <Heading id="skills" lineBottom >
-                Skills
+            <Heading id="technologies" lineBottom>
+                Tecnologias
             </Heading>
-            <div className="container skills__container">
+            <div className="container technologies__container">
                 {skills.map((item, index) => {
                     const Icon = item.image
 

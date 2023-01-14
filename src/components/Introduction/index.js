@@ -1,24 +1,33 @@
-import Link from '../links'
+import { Typography } from '@mui/material'
 import Heading from '../Heading'
+import Link from '../links'
+import foto from '../../assets/foto.jpg'
 
 import './styles.css'
 
 const Introduction = () => (
     <section>
-        <heading size="normal">
-            Olá, sou o Otávio Canedo, estou fazendo o<br />
-            curso de Ciência da Computação na PUC Minas.
-        </heading>
-        <div className="introduction__description">
-            <p>
-                Iniciei a graduação em 2021 e estou no 3º período,
-                estou gostando bastante de aprender a desenvolver apps.
-                Na faculdade aprendi a programar em C e realizei alguns
-                projetos utilizando HTML, CSS e JavaScript, e nesse
-                portfólio aprendi um pouco sobre o React.
-            </p>
+        <div className="image">
+            <img src={foto} alt="foto de perfil" />
         </div>
-        <Link title="Work with Me" link="mailto:otavionevescoc@hotmail.com" />
+        <Heading size="normal">
+            Olá, meu nome é Otávio Canedo e sou Desenvolvedor Web desde 2022.
+        </Heading>
+        <div className="introduction__description">
+            <Typography>
+                Estou cursando Ciência da Computação na PUC MG, atualmente estou no 5º período. Tenho experiência de 5 meses como 
+                Desenvolvedor Web. As principais tecnologias que utilizei foram React, CSS3 e Material-UI no Front-end, onde 
+                aprendi sobre Hooks, Redux, componentes, estados, props, renderização e rotas. No Back-end, utilizei Node com 
+                Express, aprendendo sobre o funcionamento de uma API, models e controllers. Na faculdade, aprendi Algoritmo e 
+                Estruturas de Dados na linguagem C, tive introdução de Banco de Dados com foco em SQL, e comecei a estudar Java 
+                e manipulação de dados com Python.
+            </Typography>
+        </div>
+        <div className="links">
+            <Link href="https://www.linkedin.com/in/otaviocanedo" title="Linkedin" />
+            <Link href="https://github.com/OtavioCanedo" title="Github" />
+            <Link href="mailto:otavionevescoc@hotmail.com" title="Me envie um email" />
+        </div>
     </section>
 )
 

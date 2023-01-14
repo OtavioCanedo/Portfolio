@@ -2,16 +2,16 @@ import './styles.css'
 
 const Menu = () => (
     <menu className="menu">
-        <div className="menu__logo">Otavio</div>
+        <div className="menu__logo">OTAVIO CANEDO</div>
         <nav>
             <a className="menu__link" href="#projects">
-                Projects
+                Projetos
             </a>
-            <a className="menu__link" href="#services">
-                Services
+            <a className="menu__link" href="#experience">
+                Experiência
             </a>
-            <a className="menu__link" href="#skills">
-                Skills
+            <a className="menu__link" href="#technologies">
+                Tecnologias
             </a>
         </nav>
     </menu>

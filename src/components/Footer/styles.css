@@ -1,11 +1,14 @@
 .footer {
-    text-align: center;
+  text-align: center;
 }
 
 .footer__link {
-    margin-top: 50px;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .footer__link a {
-    margin-right: 20px;
+  margin-right: 20px;
 }
